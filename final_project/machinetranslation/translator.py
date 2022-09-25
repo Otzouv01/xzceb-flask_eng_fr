@@ -28,5 +28,5 @@ def french_to_english(french_txt):
     processing = language_translator.translate(text=french_txt, model_id = 'fr-en').get_result()
     english_text = processing['translations'][0]['translation']
     return english_text
-# english_to_french(ENGLISH_TEXT)
-# french_to_english(FRENCH_TEXT)
+english_to_french(ENGLISH_TEXT)
+french_to_english(FRENCH_TEXT)
