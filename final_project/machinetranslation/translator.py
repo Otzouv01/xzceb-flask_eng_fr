@@ -5,7 +5,7 @@ IAMAuthenticator from ibm_cloud_sdk_core.authenticators,
 load_dotenv from dotenv
 Purpose is to compare expected outputs to function outputs.
 """
-# import json
+import json
 import os
 from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
